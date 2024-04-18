@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: #F0D4D3;
+    font-family: Arial, sans-serif;
+}
+.about-content{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.about-content h1 {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F0D4D3;
+}
+
+.nav-link{
+    color: #F0D4D3;
+}
+
+.card-body{
+    background-color: black;
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: white;
+}
+
+.card img{
+    width: auto;
+    height: 330px;
+}
+
+.card-title{
+    color: #F0D4D3;
+}
+
+.card-text{
+    color: #F0D4D3;
+}
+
+.btn{
+    color: #F0D4D3;
+}

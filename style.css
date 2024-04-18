@@ -1,0 +1,176 @@
+body, html{
+    background-color: black;
+    color: #F0D4D3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.img{
+    width: 50px;
+    height: 125px;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F0D4D3;
+}
+
+.nav-link{
+    color: #F0D4D3;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay h1, .overlay p {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.video-container {
+    position: relative;
+}
+
+.welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+}
+.welcome-message h1 {
+    font-size: 4.5rem; 
+}
+
+.welcome-message p {
+    font-size: 1.25rem;
+}
+
+  
+.about-content{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.about-content h1{
+    color: #F0D4D3;
+    font-weight: normal;
+    font-size: 45px;
+}
+
+.about-content p{
+    color: #F0D4D3;
+    font-size: 20px;
+}
+
+.menu-content{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card-body{
+    background-color: black;
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: white;
+}
+
+.card img{
+    width: auto;
+    height: 330px;
+}
+
+.card-title{
+    color: #F0D4D3;
+}
+
+.card-text{
+    color: #F0D4D3;
+}
+.card-price{
+    color: #F0D4D3;
+}
+
+.btn{
+    color: #F0D4D3;
+}
+.accordion{
+    --bs-accordion-btn-bg:black;
+    --bs-accordion-active-bg:black;
+    --bs-accordion-active-color:#F0D4D3;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: black;
+    --bs-accordion-color: #F0D4D3;
+    border: none;
+}
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #F0D4D3;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #F0D4D3;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
